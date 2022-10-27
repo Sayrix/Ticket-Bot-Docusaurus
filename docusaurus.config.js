@@ -10,6 +10,7 @@ const config = {
   tagline: 'Dinosaurs are cool',
   url: 'https://ticketbot.js.org',
   baseUrl: '/',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
