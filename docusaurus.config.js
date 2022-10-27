@@ -49,9 +49,6 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    colorMode: {
-      respectPrefersColorScheme: true,
-    },
     ({
       navbar: {
         title: 'Ticket Bot',
