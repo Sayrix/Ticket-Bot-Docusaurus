@@ -9,7 +9,7 @@ const config = {
   title: 'Ticket Bot',
   tagline: 'Dinosaurs are cool',
   url: 'https://ticketbot.js.org',
-  baseUrl: '/ticket-bot-docusaurus/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
