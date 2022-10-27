@@ -66,6 +66,7 @@ To configure Ticket Bot, you need to edit the `config.jsonc` file in the `/confi
   "closeButton": true, // If false the ticket can be closed only by doing /closes
   "askReasonWhenClosing": true, // If false the ticket will be closed without asking the reason
   "maxTicketOpened": 1 // The number of tickets the user can open while another one is already open. Set to 0 to unlimited
+}
 ```
 
 ## Change some embeds
