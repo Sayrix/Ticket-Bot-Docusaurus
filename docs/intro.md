@@ -28,9 +28,3 @@ git clone https://github.com/Sayrix/ticket-bot && cd ticket-bot
 ```bash
 npm install
 ```
-
-## First start
-
-```bash
-node first-start.js
-```
