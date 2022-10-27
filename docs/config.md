@@ -9,13 +9,16 @@ Example:
 
 ```json
 // config/token.json
+{
   "token": "my.discord.bot.token"
+}
 ```
 
 To configure Ticket Bot, you need to edit the `config.jsonc` file in the `/config` folder.
 
 ```json
 // config/config.json
+{
   "clientId": "123456789123456789", // The id of the discord bot
   "guildId": "123456789123456789", // The id of the discord server
   "mainColor": "f6c42f", // The hex color of the embeds by default
