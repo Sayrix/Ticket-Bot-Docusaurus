@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Ticket Bot',
   tagline: 'Dinosaurs are cool',
-  url: 'https://ticketbot.js.org',
+  url: 'https://sayrix.github.io',
   baseUrl: '/',
   trailingSlash: false,
   onBrokenLinks: 'throw',
