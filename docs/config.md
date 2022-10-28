@@ -53,7 +53,7 @@ To configure Ticket Bot, you need to edit the `config.jsonc` file in the `/confi
       "categoryId": "123456789123456789", // The category id where the tickets will be created
       "customDescription": "", // The custom description of the ticket type (set to blank to use the default description)
       "askReason": false // If the bot should ask the reason of the ticket
-    },
+    }
   ],
   "ticketNameOption": "Ticket-TICKETCOUNT", // Here is all parameter: USERNAME, USERID, TICKETCOUNT
   "rolesWhoHaveAccessToTheTickets": [
