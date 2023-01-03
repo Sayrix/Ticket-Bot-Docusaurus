@@ -1,8 +1,9 @@
 ---
 sidebar_position: 3
+sidebar_class_name: gear
 ---
 
-# Configuration
+# ⚙️ Configuration
 
 First you need to set the token of your bot in the `token.json`.  
 Example:

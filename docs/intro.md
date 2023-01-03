@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Introduction
+# ✨ Introduction
 
 Let's discover Ticket Bot together  
 

@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Start the bot
+# 🚀 Start the bot
 
 First, you need to deploy the slash commands, to do that, you need to run the command `node deploy-commands.js` in the terminal.
 

@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create a discord bot
+# 🤖 Create a discord bot
 
 Go to the [Discord developer portal](https://discord.com/developers/applications) and create a new application.  
 Then click on the button "New Application" and give it a name. Then click on the button "Create".
