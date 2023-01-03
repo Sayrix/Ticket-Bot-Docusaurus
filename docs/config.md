@@ -30,6 +30,7 @@ To configure Ticket Bot, you need to edit the `config.jsonc` file in the `/confi
     {
       "codeName": "category-one", // The name need to be in lowercase
       "name": "Category One", // The name that will be displayed in the ticket
+      "description": "Description of Category One", // The description of the Ticket in Create Ticket Menu
       "emoji": "💡", // The emoji of the type (can be blank)
       "color": "", // Can be a hex color or blank to use the main color
       "categoryId": "", // The category id where the tickets will be created
@@ -39,6 +40,7 @@ To configure Ticket Bot, you need to edit the `config.jsonc` file in the `/confi
     {
       "codeName": "category-two", // The name need to be in lowercase
       "name": "Category Two", // The name that will be displayed in the ticket
+      "description": "Description of Category Two", // The description of the Ticket in Create Ticket Menu
       "emoji": "🛑", // The emoji of the type (can be blank)
       "color": "#f8312f", // Can be a hex color or blank to use the main color
       "categoryId": "", // The category id where the tickets will be created
@@ -48,6 +50,7 @@ To configure Ticket Bot, you need to edit the `config.jsonc` file in the `/confi
     {
       "codeName": "other", // The name need to be in lowercase
       "name": "Other", // The name that will be displayed in the ticket
+      "description": "Description of Category Other", // The description of the Ticket in Create Ticket Menu
       "emoji": "", // The emoji of the type (can be blank)
       "color": "", // Can be a hex color or blank to use the main color
       "categoryId": "", // The category id where the tickets will be created
