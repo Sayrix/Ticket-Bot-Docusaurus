@@ -54,12 +54,6 @@ const config = {
         title: 'Ticket Bot',
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Docs',
-          },
-          {
             href: 'https://github.com/Sayrix/ticket-bot',
             label: 'GitHub',
             position: 'right',
