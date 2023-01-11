@@ -14,7 +14,7 @@ Ticket Bot is a open source project of an ticket discord bot using [discord.js](
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) LTS or above
+- [Node.js](https://nodejs.org/en/) LTS or above
 - [NPM](https://npmjs.com)
 
 ## Download Ticket Bot
