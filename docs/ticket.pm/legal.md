@@ -10,7 +10,7 @@ When you upload a transcript, we save all messages sent, (including attachments)
 
 ## 🖼️ How we store the images
 
-When you upload a transcript, we save all attachments (images, gifs, videos) under 50MB for 30 days for normal users and under 500MB for 90 days for sponsors. (Only 1$/month)
+When you upload a transcript, we save all attachments (images, gifs, videos) under 15MB for 30 days for normal users and under 500MB for 90 days for sponsors. (Only 1$/month)
 
 #### When you publish a transcript you affirm that you are aware of this page and your local laws and the countries hosting ticket.pm
 
