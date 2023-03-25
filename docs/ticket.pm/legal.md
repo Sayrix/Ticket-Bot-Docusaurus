@@ -8,7 +8,7 @@ sidebar_position: 1
 
 When you upload a transcript, we save all messages sent, (including attachments), user id, channel id, server id for 180 days. After these 180 days all data is completely deleted.  
 
-## 🖼️ How we store the images
+## 🖼️ How we store the attachments
 
 When you upload a transcript, we save all attachments (images, gifs, videos) under 15MB for 30 days for normal users and under 500MB for 90 days for sponsors. (Only 1$/month)
 
