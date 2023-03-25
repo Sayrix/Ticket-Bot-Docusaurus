@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# ⚖️ Legal
+# ⚖️ Legal & Q&A
 
 ## 💾 How we store the data
 
@@ -15,3 +15,7 @@ When you upload a transcript, we save all attachments (images, gifs, videos) und
 #### When you publish a transcript you affirm that you are aware of this page and your local laws and the countries hosting ticket.pm
 
 **If you want to delete your data you can contact us by mail: [ticketbot+data@ik.me](mailto:ticketbot+data@ik.me)**
+
+## ❔ Is it possible for someone to access my tickets?
+
+There are more than 1150 different emojis and 6 random emojis which makes more than 2.36×10¹⁸ different combinations. With a ratelimit of 10 requests every 10 seconds.
