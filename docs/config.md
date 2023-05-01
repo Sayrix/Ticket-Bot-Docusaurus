@@ -17,7 +17,7 @@ Example:
 To configure Ticket Bot, you need to edit the `config.jsonc` file in the `/config` folder.
 
 ```json
-// config/config.json
+// config/config.jsonc
 {
 	"clientId": "1111111111111111111", // The id of the discord bot
 	"guildId": "1111111111111111111", // The id of the discord server
