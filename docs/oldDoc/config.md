@@ -4,38 +4,47 @@ sidebar_position: 2
 
 # ⚙️ Configuration
 
-## Environment Variable
-First, you should setup the environment variable by moving `.env.example` to `.env`
+First you need to set the token of your bot in the `token.json`.  
+Example:
 
-The configuration should contain
-```bash
-# Your discord token
-TOKEN=""
-# Prisma Database URL (refer to docs for more details)
-DATABASE_URL="file:./tixbot.db"
+```json
+// config/token.json
+{
+  "token": "my.discord.bot.token"
+}
 ```
 
-Options:
-* `TOKEN` - Your discord token goes here
-* `DATABASE_URL` - The database conenction url, leave it the default value if you're not planning to use external database, otherwise refer to [Prisma Docs](https://www.prisma.io/docs/concepts/database-connectors) for more information.
+To configure Ticket Bot, you need to edit the `config.jsonc` file in the `/config` folder.
 
-Note for inexperienced users: .env is the default way of setting up the environment. If you're using services like replit, they'll provide you with a more secure way of storing environment variable, and you should use that instead.
-
-## General Configuration
-Next, setup the configuration file by moving `config/config.example.jsonc` to `config/config.jsonc` (`.jsonc` not `.json`)
-
-Notes for `ticketTypes`:
-* `codeName` cannot be duplicated.
-* You technically can have more than 25 `ticketTypes`, but cannot show more than 25 at a time to user.
-	* Easiest way to achieve that is by using `cantAccess`.
-
-The configuration should contain
 ```json
+// config/config.jsonc
 {
 	"clientId": "1111111111111111111", // The id of the discord bot
 	"guildId": "1111111111111111111", // The id of the discord server
-	"mainColor": "#f6c42f", // The hex color of the embeds by default
+	"mainColor": "f6c42f", // The hex color of the embeds by default
 	"lang": "main", // If you want to set english please set "main"
+
+	/*
+	Pick a database driver, postgres will take priority over mysql (if both are enabled, which please don't do).
+	If neither option is enabled, SQLite will be used.
+		*PostgreSQL will be using default schema*
+	*/
+	"postgre": {
+		"enabled": false,
+		"host": "postgresql.example.com", // The host of the PostgreSQL database
+		"user": "postgres", // The user of the PostgreSQL database
+		"password": "password", // The password of the PostgreSQL database
+		"database": "postgres", // The name of the PostgreSQL database
+		"table": "json" // The name of the table where the tickets will be saved
+	},
+	"mysql": {
+		"enabled": false,
+		"host": "mysql.example.com", // The host of the MySQL database
+		"user": "mysql", // The user of the MySQL database
+		"password": "password", // The password of the MySQL database
+		"database": "ticketbot", // The name of the MySQL database
+		"table": "json" // The name of the table where the tickets will be saved
+	},
 
 	"closeTicketCategoryId": "", // The id of the category where a closed ticket will be moved to. Leave blank to disable this feature
 
@@ -119,14 +128,8 @@ The configuration should contain
 		"status": "online" // online, idle, dnd, invisible set to online if the type is STREAMING
 	},
 
-	"maxTicketOpened": 0, // The number of tickets the user can open while another one is already open. Set to 0 to unlimited
-	/*
-	Whether or not to minimizing the tracking data that are being sent
-	Enabling this will cause the telemetry to only send the software version and node version
-	*/
-	"minimalTracking": false
+	"maxTicketOpened": 0 // The number of tickets the user can open while another one is already open. Set to 0 to unlimited
 }
-
 ```
 
 ## Change some embeds
