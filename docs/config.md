@@ -37,8 +37,6 @@ The configuration should contain
 	"mainColor": "#f6c42f", // The hex color of the embeds by default
 	"lang": "main", // If you want to set english please set "main"
 
-	"closeTicketCategoryId": "", // The id of the category where a closed ticket will be moved to. Leave blank to disable this feature
-
 	"openTicketChannelId": "1111111111111111111", // The id of the channel where the message to create a ticket will be sent
 
 	"ticketTypes": [
@@ -91,7 +89,14 @@ The configuration should contain
 		}
 	],
 	"ticketNameOption": "Ticket-TICKETCOUNT", // Here is all parameter: USERNAME, USERID, TICKETCOUNT
-	"ticketNamePrefixWhenClaimed": "✔️", // With ✔️ as prefix the name of the ticket will be like this: ✔️ticket-1
+
+	// Ticket Claim Options
+	"claimOption": {
+		"claimButton": true, // Whether to enable ticket claim button or not
+		// The X can be replaced with S (The staff that claimed the ticket) or U (The user that created the ticket)
+		"nameWhenClaimed": "✔️ Ticket-TICKETCOUNT", // Here is all parameter: X_USERNAME, X_USERID, TICKETCOUNT
+		"categoryWhenClaimed": "" // The category the ticket is moved to when claimed
+	},
 
 	"rolesWhoHaveAccessToTheTickets": ["1111111111111111111", "2222222222222222222"], // Roles who can access to the tickets (Like the staff)
 
@@ -102,14 +107,15 @@ The configuration should contain
 
 	"logs": true,
 	"logsChannelId": "1111111111111111111", // The id of the channel where the logs will be sent
-
-	"claimButton": true,
-
-	"whoCanCloseTicket": "STAFFONLY", // STAFFONLY (roles configured at "rolesWhoHaveAccessToTheTickets") or EVERYONE
-	"closeButton": true, // If false the ticket can be closed only by doing /closes
-	"askReasonWhenClosing": true, // If false the ticket will be closed without asking the reason
-
-	"createTranscript": true, // If set to true, when the ticket is closed a transcript will be generated and sent in the logs channel
+	
+	"closeOption": {
+		"closeButton": true, // If false the ticket can be closed only by doing /closes
+		"dmUser": true, // Whether to DM the user when the ticket is closed
+		"createTranscript": true, // If set to true, when the ticket is closed a transcript will be generated and sent in the logs channel
+		"askReason": true, // If false the ticket will be closed without asking the reason
+		"whoCanCloseTicket": "STAFFONLY", // STAFFONLY (roles configured at "rolesWhoHaveAccessToTheTickets") or EVERYONE
+		"closeTicketCategoryId": "" // The id of the category where a closed ticket will be moved to. Leave blank to disable this feature
+	},
 	"uuidType": "uuid", // uuid or emoji
 
 	"status": {
@@ -127,7 +133,6 @@ The configuration should contain
 	*/
 	"minimalTracking": false
 }
-
 ```
 
 ## Change some embeds

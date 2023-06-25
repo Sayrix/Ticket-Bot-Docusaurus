@@ -3,7 +3,7 @@ sidebar_position: 0
 ---
 
 # ✨ Introduction
-Welcome to Welcome to ticket bot v2.4.0 Docs. This is for legacy purposes only, please migrate to v3 whenever possible.
+Welcome to ticket bot v2.4.0 Docs. This is for legacy purposes only, please migrate to v3 whenever possible.
 
 ## What is Ticket Bot?
 
