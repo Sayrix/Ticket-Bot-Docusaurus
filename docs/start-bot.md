@@ -15,7 +15,16 @@ If you're using `git clone` as way to obtain the source, the easiest way to upda
 git pull
 npm run build
 ```
-If there's any issues due to a change in Prisma models. Run the setup command again via `npm run setup`
+If there is any changes to the Prisma models, run the setup command again via `npm run setup`.
+
+If you're using external database, you may encounter issues when trying to run `git pull`. To fix it:
+```md
+1. Run `git reset --hard HEAD`
+2. Run `git pull`
+3. Go back to `prisma/schema.prisma` and change the `provider`
+4. Run the `npm run setup` command **only if** there's a change to the original prisma model.
+5. Run `npm run build`
+```
 
 ## Keep the bot online 24/7
 
