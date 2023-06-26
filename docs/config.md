@@ -17,11 +17,7 @@ DATABASE_URL="file:./tixbot.db"
 
 Options:
 * `TOKEN` - Your discord token goes here
-* `DATABASE_URL` - The database conenction url
-	* Refer to [Prisma Docs](https://www.prisma.io/docs/concepts/database-connectors) if you want to use an external database.
-	* When you change the database_url, make sure to
-		1. Go to `prisma/schema.prisma` and change the `provider` (under `datasource`) to the database you want to use
-		2. Run `npx prisma db push` or `npm run setup` again
+* `DATABASE_URL` - The database conenction url (visit [Prisma Setup](https://doc.ticket.pm/docs/prisma) if you want to use different database)
 
 Note for inexperienced users: .env is the default way of setting up the environment. If you're using services like replit, they'll provide you with a more secure way of storing environment variable, and you should use that instead.
 

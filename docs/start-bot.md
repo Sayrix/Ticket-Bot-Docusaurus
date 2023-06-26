@@ -18,13 +18,9 @@ npm run build
 If there is any changes to the Prisma models or the database type, run the setup command again via `npm run setup`.
 
 If you're using external database, you may encounter issues when trying to run `git pull`. To fix it:
-```md
-1. Run `git reset --hard HEAD`
-2. Run `git pull`
-3. Go back to `prisma/schema.prisma` and change the `provider`
-4. Run the `npm run setup` command ONLY IF there's a change to the original prisma model or the database type.
-5. Run `npm run build`
-```
+1. run `git reset --hard HEAD`
+2. Continue with the regular update process
+3. Follow the [Prisma Setup](https://doc.ticket.pm/docs/prisma) to set the schema back
 
 ## Keep the bot online 24/7
 
