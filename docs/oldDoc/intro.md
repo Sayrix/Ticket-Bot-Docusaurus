@@ -3,7 +3,7 @@ sidebar_position: 0
 ---
 
 # ✨ Introduction
-Welcome to Welcome to ticket bot v2.4.0 Docs. This is for legacy purposes only, please migrate to v3 whenever possible.
+Welcome to ticket bot v2.4.0 Docs. This is for legacy purposes only, please migrate to v3 whenever possible.
 
 ## What is Ticket Bot?
 
@@ -19,7 +19,7 @@ Ticket Bot is a open source project of an ticket discord bot using [discord.js](
 ## Download Ticket Bot
 
 ```bash
-git clone https://github.com/Sayrix/ticket-bot && cd ticket-bot
+git clone -b old https://github.com/Sayrix/Ticket-Bot.git && cd ticket-bot
 ```
 
 ## Install dependencies
