@@ -27,6 +27,9 @@ git clone https://github.com/Sayrix/ticket-bot && cd ticket-bot
 
 For specific version, you can download it from the `releases` tab
 
+## Docker Users Only
+Ignore the inital setup and go straight to [Docker Setup](https://doc.ticket.pm/docs/docker)
+
 ## Inital Setup
 
 The following command will do two things:
