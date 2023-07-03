@@ -7,7 +7,7 @@ sidebar_position: 5
 Hellow fellow docker mates. So the setup for docker isn't terribly hard, matter of fact, might be easier than normal setup.
 
 ## Standard Setup
-1. Please visit the [config doc](https://doc.ticket.pm/docs/config) (ignore the .env section) to setup your configuration file
+1. Please visit the [config doc](https://doc.ticket.pm/docs/config#general-configuration) (ignore the .env section) to setup your configuration file
 2. Modify the locales if needed
 3. Boot up the container
     * For Linux, run: `TOKEN=[REPLACE THIS WITH YOUR DISCORD TOKEN]; docker compose up -d`
