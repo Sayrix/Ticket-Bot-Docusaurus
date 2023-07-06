@@ -13,8 +13,9 @@ Hellow fellow docker mates. So the setup for docker isn't terribly hard, matter 
     * For Linux, run: `TOKEN=[REPLACE THIS WITH YOUR DISCORD TOKEN] docker compose up -d`
     * For Windows, export env variable for `TOKEN`, then run `docker compose up -d`
 
-## Updates
-For any source and config updates, run: `docker compose up -d --build`
+## Data directory
+All of the data are stored in `/opt/ticket-bot/` (including bot's config file).
 
-## Prisma Notice
-Docker automatically uses postgresql as database and store your data in `./db-data` folder.
+## Updates
+* For any source updates, rebuild the container using `docker compose up -d --build`
+* To update config files, go to the data directory `/opt/ticket-bot/config` and update it there; make sure to restart the container when finish making changes.
