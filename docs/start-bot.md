@@ -24,5 +24,5 @@ If you're using external database, you may encounter issues when trying to run `
 
 ## Keep the bot online 24/7
 
-To keep the bot online 24/7 I can host your bot for $1/month. For more information, you can contact me on Discord (`@sayrix`)
+To keep the bot online 24/7, you can sponsor [Sayrix on github](https://github.com/sponsors/Sayrix) and benefit from other advantages and, depending on your tier, get multiple hostings for cheap.
 Or host the bot on a Server/VPS.
