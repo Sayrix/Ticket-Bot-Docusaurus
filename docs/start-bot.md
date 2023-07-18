@@ -4,7 +4,9 @@ sidebar_position: 3
 
 # 🚀 Start the bot
 
-Before starting the bot, make sure you transpile the ts source first by running `npm run build`.
+Before starting the bot, make to run the final setup commands
+1. `npx prisma db push` - Setup the database
+2. `npm run build` - Transpile the source
 
 Now to start it, you need to run the command `npm start` (or `node dist/index.js`) in the terminal.	
 You can also use a process manager like [PM2](https://pm2.keymetrics.io/).
