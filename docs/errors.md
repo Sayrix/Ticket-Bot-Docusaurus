@@ -12,6 +12,7 @@ If you see any of this errors, then it's likely you didn't follow the doc like y
 * `Must be between 1 and 25 in length` - You have more than 25 `ticketType` in your config or have an invalid/out-of-date config which result in 0 `ticketType` available
     * For newer source, this should be replaced with appropriate message
 * `An invalid token was provided` - either the token you provided was actually invalid or you didn't setup the environment variable correctly. It's most likely the latter that happens.
+* `The provided value for the column is too long for the column's type. Column: *` - You did not use the schema on the doc site like ur suppose to to
 
 To avoid any more errors, re-read the whole doc and confirm you have followed all of it before continuing.
 
