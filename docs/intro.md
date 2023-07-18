@@ -30,12 +30,8 @@ For specific version, you can download it from the `releases` tab
 ## Docker Users Only
 Ignore the inital setup and go straight to [Docker Setup](https://doc.ticket.pm/docs/docker)
 
-## Inital Setup
-
-The following command will do two things:
-* Install the package
-* Setup the inital database
+## Install package
 
 ```bash
-npm run setup
+npm install
 ```

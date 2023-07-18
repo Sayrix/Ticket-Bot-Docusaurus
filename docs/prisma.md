@@ -14,7 +14,8 @@ Unless you're looking to use MySQL or PostgreSQL, you do not need to use this. T
 1. Copy the schema for the database you want to use below
 2. Go to `prisma/schema.prisma` file and paste in the new schema
 3. Go to `.env` and point the `DATABASE_URL` to your new database
-4. Run `npm run setup` to setup the database
+4. Run `npx prisma db push` to setup the database
+5. In-case the 4th step doesn't automatically generate the client, run `npx prisma generate`
 
 ## Sqlite
 This is our default option and works out-of-box without any addition work.

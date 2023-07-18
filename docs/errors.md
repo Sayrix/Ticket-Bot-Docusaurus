@@ -6,7 +6,7 @@ sidebar_position: 6
 
 ## You Didn't Follow Doc Error
 If you see any of this errors, then it's likely you didn't follow the doc like you're suppose to and get any of the following errors.
-*  `The table main.config does not exist in the current database` - You did not run the `npm run setup`
+*  `The table main.config does not exist in the current database` - You did not run the `npx prisma db push`
 * `Cannot find module '.../dist/index.js'` - You did not run `npm run build`
 * `Used disallowed intents` - You did not enable all the intent for the bot
 * `Must be between 1 and 25 in length` - You have more than 25 `ticketType` in your config or have an invalid/out-of-date config which result in 0 `ticketType` available
