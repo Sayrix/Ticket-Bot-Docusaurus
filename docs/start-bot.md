@@ -27,4 +27,4 @@ If you're using external database, you may encounter issues when trying to run `
 ## Keep the bot online 24/7
 
 To keep the bot online 24/7, you can sponsor [Sayrix on github](https://github.com/sponsors/Sayrix) from 1$/month and benefit from other advantages and, depending on your tier, get multiple hostings for cheap.
-Or host the bot on a Server/VPS.
+Or host the bot on a Server/VPS using pm2.
