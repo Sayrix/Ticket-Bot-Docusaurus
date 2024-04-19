@@ -16,7 +16,7 @@ Ticket Bot is a open source project of an ticket discord bot using [discord.js](
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/) v18.12.0 (LTS) or above
+- [Node.js](https://nodejs.org/en/) v18.17.0 (LTS) or above
 - [NPM](https://npmjs.com) should come with Node.js when you install it
 
 ## Download Ticket Bot
@@ -27,12 +27,11 @@ git clone https://github.com/Sayrix/ticket-bot && cd ticket-bot
 
 For specific version, you can download it from the `releases` tab
 
-## Inital Setup
+## Docker Users Only
+Ignore the inital setup and go straight to [Docker Setup](https://doc.ticket.pm/docs/docker)
 
-The following command will do two things:
-* Install the package
-* Setup the inital database
+## Install package
 
 ```bash
-npm run setup
+npm install
 ```

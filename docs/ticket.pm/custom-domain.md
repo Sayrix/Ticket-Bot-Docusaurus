@@ -6,8 +6,8 @@ sidebar_position: 0
 
 ## 🎨 Custom domain
 
-If you want to use a custom domain for your transcript you need to pay 5$ per month. [(github.com/sponsors/Sayrix)](https://github.com/sponsors/Sayrix?frequency=recurring&sponsor=Sayrix)
+If you wish to have your own domain for your transcripts, you must pay $5/month [(github.com/sponsors/Sayrix)](https://github.com/sponsors/Sayrix?frequency=recurring&sponsor=Sayrix). This will allow you to contribute to Sayrix projects, and you will benefit from several advantages such as the removal of ads, the removal of the "Powered by Ticket-Bot" footer, and many more.
 
 ## 📝 Source code
 
-The source code of Ticket.pm is private. If you want the source code you need to buy it. Please contact me on discord: `@sayrix`
+The source code of ticket.pm is private. If you want the source code you need to buy it. Please contact me on discord: `@sayrix`
