@@ -10,4 +10,4 @@ If you wish to have your own domain for your transcripts, you must pay $5/month 
 
 ## 📝 Source code
 
-The source code of ticket.pm is private. If you want the source code you need to buy it. Please contact me on discord: `@sayrix`
+The source code of ticket.pm is private.
