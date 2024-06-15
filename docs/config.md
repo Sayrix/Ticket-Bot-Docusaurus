@@ -30,7 +30,7 @@ Notes for `ticketTypes`:
 	* Easiest way to achieve that is by using `cantAccess`.
 
 The configuration should contain
-```json title="/config/config.jsonc"
+```jsonc title="/config/config.jsonc"
 {
 	"clientId": "1111111111111111111", // The id of the discord bot
 	"guildId": "1111111111111111111", // The id of the discord server
