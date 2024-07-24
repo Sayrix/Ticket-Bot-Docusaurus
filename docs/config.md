@@ -118,6 +118,7 @@ The configuration should contain
 		"createTranscript": true, // If set to true, when the ticket is closed a transcript will be generated and sent in the logs channel
 		"askReason": true, // If false the ticket will be closed without asking the reason
 		"whoCanCloseTicket": "STAFFONLY", // STAFFONLY (roles configured at "rolesWhoHaveAccessToTheTickets") or EVERYONE
+		"deleteTicket": false, // when enabled, it will delete the ticket on clicking close button
 		"closeTicketCategoryId": "" // The id of the category where a closed ticket will be moved to. Leave blank to disable this feature
 	},
 	"uuidType": "uuid", // uuid or emoji
